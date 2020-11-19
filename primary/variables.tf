@@ -3,6 +3,6 @@ variable "whitelist" {
   description = "Your own Public IP"
 }
 variable "keypair" {
-  type = string
+  type        = string
   description = "Your own Key pair"
 }
