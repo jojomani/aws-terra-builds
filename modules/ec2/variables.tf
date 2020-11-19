@@ -1,5 +1,5 @@
 variable "keypair" {
-  type = string
+  type        = string
   description = "Your own Key pair"
 }
 variable "dev_ami" {
