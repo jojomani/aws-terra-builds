@@ -1,5 +1,5 @@
 variable "whitelist" {
-  type    = list(string)
+  type        = list(string)
   description = "Your own Public IP"
 }
 variable "dev_vpc" {
